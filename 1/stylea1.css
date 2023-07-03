@@ -1,0 +1,10 @@
+body {
+background-color:Red;
+}
+h1 {
+font-family:brush script mt,cursive;
+}
+
+h1.clicked {
+color: white;
+}

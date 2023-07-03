@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ASSIGNMENTS 1 </title>
+<link href="stylea1.css" rel="stylesheet" />
+</head>
+<body>
+<h1 onclick="handleClick(this)">
+Nayeema Nausin Laskar
+</h1>
+<script>
+function handleClick(node) {
+var value = node.getAttribute('class') || '';
+value = value === '' ? 'clicked' : '';
+node.setAttribute('class', value);
+}
+</script>
+</body>
+</html>
